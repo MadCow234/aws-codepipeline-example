@@ -7,3 +7,9 @@ test('renders learn react link', () => {
   const linkElement = getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
+
+test('displays proper description', () => {
+  const { getByText } = render(<App />);
+  const descriptionText = getByText(/Deployed with AWS CodePipeline and hosted on AWS Elastic Beanstalk./);
+  expect(descriptionText).toBeInTheDocument();
+});
