@@ -16,6 +16,6 @@ test('displays proper description', () => {
 
 test('displays proper author', () => {
   const { getByText } = render(<App />);
-  const authorText = getByText(/Created by MadCow23456789/);
+  const authorText = getByText(/Created by MadCow234/);
   expect(authorText).toBeInTheDocument();
 });
