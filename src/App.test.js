@@ -13,3 +13,9 @@ test('displays proper description', () => {
   const descriptionText = getByText(/Deployed with AWS CodePipeline and hosted on AWS Elastic Beanstalk./);
   expect(descriptionText).toBeInTheDocument();
 });
+
+test('displays proper author', () => {
+  const { getByText } = render(<App />);
+  const authorText = getByText(/Created by MadCow23456789/);
+  expect(authorText).toBeInTheDocument();
+});

@@ -9,7 +9,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Deployed with AWS CodePipeline and hosted on AWS Elastic Beanstalk.
+          <br/><br/>
+          Created by MadCow234
         </p>
+        <br/>
         <a
           className="App-link"
           href="https://reactjs.org"
