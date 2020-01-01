@@ -10,7 +10,7 @@ function App() {
         <p>
           Deployed with AWS CodePipeline and hosted on AWS Elastic Beanstalk.
           <br/><br/>
-          Created by MadCow234
+          Created by MadCow234 (Matthew McLeod)
         </p>
         <br/>
         <a
